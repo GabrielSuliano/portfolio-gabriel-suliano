@@ -82,7 +82,7 @@ grid.innerHTML = projects.map((project, index) => `<article class="project ${pro
     <span class="visual-index">${String(index + 1).padStart(2, '0')} / ${project.featured ? 'EM DESTAQUE' : 'PROJETO'}</span>
     ${screenshot(project)}<span class="expand-icon" aria-hidden="true">↗</span>
   </button>
-  <div class="project-info"><div><span class="project-category">${escapeHtml(project.category)}</span><h3>${escapeHtml(project.title)}</h3>${!project.featured ? `<p>${escapeHtml(project.summary)}</p>${tags(project)}` : ''}</div>${project.featured ? `<div><p>${escapeHtml(project.summary)}</p>${tags(project)}</div>` : ''}<button class="detail-button" data-project="${project.id}" aria-label="Ver detalhes de ${escapeHtml(project.title)}">↗</button></div>
+  <div class="project-info"><div><span class="project-category">${escapeHtml(project.category)}</span><h3>${escapeHtml(project.title)}</h3>${!project.featured ? `<p>${escapeHtml(project.summary)}</p>${tags(project)}` : ''}</div>${project.featured ? `<div><p>${escapeHtml(project.summary)}</p>${tags(project)}</div>` : ''}</div><button class="detail-button" data-project="${project.id}" aria-label="Saiba mais sobre ${escapeHtml(project.title)}">Clique aqui para saber mais <span aria-hidden="true">↗</span></button>
 </article>`).join('');
 
 document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {

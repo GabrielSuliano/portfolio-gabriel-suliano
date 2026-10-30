@@ -1,12 +1,12 @@
 const projects = [
   {
-    id: 'devflow', title: 'DevFlow Studio', category: 'IA aplicada · Plataforma de criação', filter: 'sistemas', featured: true,
+    id: 'devflow', title: 'DevFlow Studio', category: 'IA aplicada · Web e aplicativo', filter: 'sistemas', featured: true,
     image: 'devflow.jpg', alt: 'Interface real do DevFlow Studio com conversa de IA e painel de prévia de conteúdo',
-    summary: 'Um estúdio de conteúdo que conecta conversa, inteligência artificial e revisão em um único fluxo.',
-    stack: ['React', 'TypeScript', 'Supabase', 'IA'],
+    summary: 'Uma plataforma web e um aplicativo instalável para transformar ideias em conteúdo com IA. Reúne conversa, criação de imagens e carrosséis, prévias de Reels e uma biblioteca para revisar e organizar cada versão.',
+    stack: ['React', 'TypeScript', 'Supabase', 'IA', 'PWA'],
     context: 'Como transformar uma ideia em conteúdo sem perder o controle sobre o resultado? O DevFlow Studio reúne conversa com IA, criação de imagens e carrosséis, prévias e uma biblioteca de conteúdos em uma plataforma privada.',
-    solution: 'Desenvolvi a interface em React e TypeScript, com autenticação e serviços no Supabase. O projeto combina integrações de IA em nuvem e um motor local para produção de mídia, mantendo a revisão humana como parte do fluxo.',
-    features: ['Conversa com IA e histórico de criações.', 'Prévia e revisão de imagens, carrosséis e Reels.', 'Biblioteca para organizar versões e conteúdos.'],
+    solution: 'Desenvolvi a interface em React e TypeScript, com autenticação e serviços no Supabase. O DevFlow também funciona como aplicativo instalável (PWA), com ícone próprio e abertura em uma janela independente em dispositivos compatíveis. O projeto combina integrações de IA em nuvem e um motor local para produção de mídia, mantendo a revisão humana como parte do fluxo.',
+    features: ['Plataforma web e aplicativo instalável (PWA).', 'Conversa com IA e histórico de criações.', 'Prévia e revisão de imagens, carrosséis e Reels.', 'Biblioteca para organizar versões e conteúdos.'],
     note: 'Projeto privado e em evolução. A captura mostra a aplicação autenticada. Recursos de produção de mídia dependem das integrações e do motor configurado; abrir o link exige acesso autorizado.',
     authorship: 'Projeto pessoal · desenvolvimento por Gabriel Suliano.',
     links: [{ label: 'Abrir plataforma · acesso restrito', url: 'https://devflow-studio-psi.vercel.app/' }]
@@ -14,7 +14,7 @@ const projects = [
   {
     id: 'plantel', title: 'Plantel Listas', category: 'Educação · Plataforma web', filter: 'sistemas', featured: true,
     image: 'plantel.jpg', alt: 'Biblioteca real do Plantel Listas com busca e organização dos materiais de estudo',
-    summary: 'Uma biblioteca digital para organizar materiais de estudo e tornar o acesso ao conteúdo mais simples.',
+    summary: 'Uma plataforma de estudos que reúne pastas, PDFs e vídeos em uma biblioteca com busca e filtros. Desenvolvi a interface e o backend, com integração ao Google Drive e controle de acesso para alunos, professores e administração.',
     stack: ['React', 'Node.js', 'MySQL', 'Google Drive'],
     context: 'Materiais distribuídos em muitas pastas precisam de uma experiência de consulta organizada. O Plantel Listas oferece uma biblioteca com navegação por pastas, busca e filtros, conectada à gestão de acesso da plataforma.',
     solution: 'Fui responsável pelo desenvolvimento do sistema, da interface em React ao backend modular em Node.js e Express com MySQL. A plataforma integra o acervo do Google Drive e oferece áreas para alunos, professores e administração.',
@@ -26,7 +26,7 @@ const projects = [
   {
     id: 'central', title: 'Central de Gestão', category: 'Relacionamento · Protótipo navegável', filter: 'sistemas',
     image: 'central.jpg', alt: 'Dashboard real do protótipo Central de Gestão de Contatos em modo de demonstração',
-    summary: 'Contatos, responsáveis e atendimentos organizados em uma interface para acompanhar a operação.',
+    summary: 'Um protótipo de central de relacionamento para organizar contatos, distribuir responsáveis e acompanhar atendimentos. Construí o dashboard e os fluxos de operação com JavaScript, usando dados de demonstração e armazenamento local no navegador.',
     stack: ['JavaScript', 'HTML & CSS', 'LocalStorage'],
     context: 'O projeto explora como centralizar a rotina de atendimento: encontrar um contato, escolher um canal e registrar o resultado em um fluxo visual.',
     solution: 'Construí um protótipo front-end com dashboard, gestão de contatos, perfis de demonstração e acompanhamento de atendimentos. A interface usa HTML, CSS e JavaScript, com persistência local no navegador.',
@@ -38,7 +38,7 @@ const projects = [
   {
     id: 'ecoponto', title: 'EcoPonto', category: 'Sustentabilidade · Aplicativo mobile', filter: 'mobile',
     image: 'ecoponto.jpg', alt: 'Captura real do mapa do EcoPonto extraída da apresentação fornecida por Gabriel', gallery: 'ecoponto-painel.jpg',
-    summary: 'Tecnologia e educação ambiental para aproximar as pessoas do descarte consciente.',
+    summary: 'Um aplicativo acadêmico desenvolvido em equipe para incentivar o descarte consciente. Combina mapa de ecopontos, registro de reciclagem com foto e localização, pontuação e validação administrativa, usando Ionic, Angular e Firebase.',
     stack: ['Ionic', 'Angular', 'Firebase', 'Capacitor'],
     context: 'O EcoPonto é um projeto acadêmico em equipe que propõe uma experiência guiada para localizar pontos de coleta e incentivar a reciclagem.',
     solution: 'O aplicativo utiliza Ionic, Angular e Capacitor, com autenticação no Firebase e dados no Firestore. O código reúne mapa com MapLibre, registro de descartes, pontuação, ranking e validação administrativa.',
@@ -50,7 +50,7 @@ const projects = [
   {
     id: 'rame', title: 'Rame Seishin Jutsu', category: 'Presença digital · Site institucional', filter: 'web',
     image: 'rame.jpg', alt: 'Página inicial real do site Rame Seishin Jutsu publicado na Vercel',
-    summary: 'Um site institucional com identidade visual forte e conteúdo organizado em páginas temáticas.',
+    summary: 'Um site institucional para apresentar a arte marcial, seus fundamentos e mestres. Estruturei as páginas em HTML, CSS e JavaScript, com identidade visual marcada por imagens e uma navegação direta entre os conteúdos.',
     stack: ['HTML', 'CSS', 'JavaScript', 'Vercel'],
     context: 'Uma presença digital para apresentar a arte marcial, seus fundamentos, história, mestres e formas de contato.',
     solution: 'Estruturei o site em páginas HTML com estilos compartilhados e JavaScript por área. A composição visual dá destaque às imagens e à navegação, com um processo simples de build e publicação estática na Vercel.',
@@ -62,7 +62,7 @@ const projects = [
   {
     id: 'jogo', title: 'Escola Sustentável', category: 'Educação · Experiência interativa', filter: 'web',
     image: 'jogo.jpg', alt: 'Tela inicial real do jogo Crie sua Escola Sustentável, executado localmente',
-    summary: 'Um jogo de escolhas que transforma sustentabilidade em uma atividade para aprender fazendo.',
+    summary: 'Um jogo educativo em que cada escolha ajuda a construir uma escola mais sustentável. Desenvolvi rodadas com tempo, feedback, conquistas e ranking local para transformar temas como água, energia e reciclagem em uma atividade participativa.',
     stack: ['JavaScript', 'HTML & CSS', 'LocalStorage'],
     context: 'Como conversar sobre sustentabilidade de uma forma participativa? Neste jogo escolar, o jogador toma decisões para montar uma escola mais ecológica.',
     solution: 'Desenvolvi uma experiência em HTML, CSS e JavaScript com desafios em sete categorias, tempo por rodada, feedback, conquistas e ranking salvo no próprio navegador.',

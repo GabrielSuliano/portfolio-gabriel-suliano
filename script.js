@@ -19,7 +19,7 @@ const projects = [
     context: 'Materiais distribuídos em muitas pastas precisam de uma experiência de consulta organizada. O Plantel Listas oferece uma biblioteca com navegação por pastas, busca e filtros, conectada à gestão de acesso da plataforma.',
     solution: 'Fui responsável pelo desenvolvimento do sistema, da interface em React ao backend modular em Node.js e Express com MySQL. A plataforma integra o acervo do Google Drive e oferece áreas para alunos, professores e administração.',
     features: ['Busca e navegação hierárquica por materiais.', 'Organização do acervo e integração com Google Drive.', 'Autenticação, perfis e controle de permissões.'],
-    note: 'Projeto de propriedade compartilhada, desenvolvido individualmente por Gabriel Suliano, conforme sua declaração. A captura é um recorte da biblioteca em uso, sem a lista de usuários ou dados pessoais das contas. O acesso aos materiais depende de autenticação.',
+    note: 'Projeto de propriedade compartilhada, com desenvolvimento integral por Gabriel Suliano. Captura real da biblioteca em uso. O acesso aos materiais depende de autenticação.',
     authorship: 'Desenvolvimento integral: Gabriel Suliano · propriedade compartilhada.',
     links: [{ label: 'Conhecer o Plantel Listas', url: 'https://plantellistas.planteldeduvidas.com.br/' }]
   },
@@ -43,7 +43,7 @@ const projects = [
     context: 'O EcoPonto é um projeto acadêmico em equipe que propõe uma experiência guiada para localizar pontos de coleta e incentivar a reciclagem.',
     solution: 'O aplicativo utiliza Ionic, Angular e Capacitor, com autenticação no Firebase e dados no Firestore. O código reúne mapa com MapLibre, registro de descartes, pontuação, ranking e validação administrativa.',
     features: ['Mapa e busca de pontos de coleta.', 'Registro de descartes com foto e localização.', 'Ranking e fluxo de validação administrativa.'],
-    note: 'Capturas originais extraídas da apresentação técnica fornecida por Gabriel. A interface local abriu durante a revisão, mas o cadastro de teste não foi concluído por falta de permissão no Firebase. As telas da apresentação não representam uma nova validação do backend. Os indicadores do painel fazem parte da interface demonstrada.',
+    note: 'Capturas originais extraídas da apresentação técnica do projeto, fornecida por Gabriel. Os indicadores do painel são demonstrativos. O aplicativo depende da configuração do Firebase e de serviços externos.',
     authorship: 'Autores: Gabriel Suliano, Samuel Valentim e Beatriz Freitas.',
     links: [{ label: 'Ver código no GitHub', url: 'https://github.com/GabrielSuliano/EcoPonto' }]
   },

@@ -2,7 +2,7 @@
 
 Portfólio responsivo com seis projetos, filtros por área e detalhes em uma janela acessível por teclado. Template editorial próprio em HTML, CSS e JavaScript, sem dependências de execução.
 
-**Site público:** https://portfolio-gabriel-suliano-2vfg.vercel.app/
+**Site público:** https://portfolio-gabriel-suliano.vercel.app/
 
 Cada projeto tem um botão explícito para abrir os detalhes. A área de contato oferece WhatsApp e e-mail; o botão “Vamos conversar” abre o WhatsApp informado pelo proprietário.
 

@@ -1,0 +1,7 @@
+{
+  "name": "portfolio-gabriel-suliano",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio profissional de Gabriel Suliano",
+  "scripts": { "build": "node build.cjs", "check": "node --check script.js && node --check build.cjs" }
+}

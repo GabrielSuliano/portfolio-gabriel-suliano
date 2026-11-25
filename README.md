@@ -46,3 +46,21 @@ Fontes tipográficas: Manrope e DM Sans, servidas pelo Google Fonts, com fontes 
 ## Validação
 
 Sintaxe JavaScript e build estático. Revisão no Chrome em desktop e celular, incluindo filtros, abertura/fechamento dos detalhes e ausência de rolagem horizontal no celular. A publicação deve ser conferida na URL pública após a conclusão do deploy.
+
+## Arquitetura e execução local
+
+Tudo funciona no navegador: `script.js` mantém dados, filtros/modal; `build.cjs` copia recursos para `dist/`. Não há framework, API, banco, autenticação, migrations ou `.env`. npm executa scripts locais, sem dependências de terceiros.
+
+Com Node e Python:
+
+```bash
+npm run check
+npm run build
+python -m http.server 8000 --bind 127.0.0.1 --directory dist
+```
+
+Abra `http://127.0.0.1:8000/`. Contato aciona serviços externos, sem backend de envio. A URL pública respondeu HTTP 200 em 25/11/2026; isso não valida projetos vinculados/integrações.
+
+## Estado e evolução
+
+`check` verifica sintaxe, sem cobertura comportamental. Os testes de navegador de outubro acima são histórico, não repetidos nesta revisão. Prioridades: testes de filtros/modal/teclado e sincronização de descrições/links com os projetos. Não há licença versionada.
